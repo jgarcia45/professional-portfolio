@@ -2,7 +2,7 @@
 
 ## Description
 
-Our challenge is to create a professional portfolio to showcase our skills and talents to employers.
+Our challenge is to create a professional portfolio to showcase our skills and talents to employers. We will be applying the core skills we recently learned: flexbox, media queries, and css variables. We will continue to add more core skills as we progress throughout the course.
 
 ## Acceptance Criteria
 ```
@@ -22,6 +22,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Screenshot
+Here is a preview of the website provide: ![Professional Portfolio](./assets/images/)
 
 ## Link
 
