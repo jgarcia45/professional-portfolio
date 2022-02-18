@@ -17,7 +17,10 @@ body {
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
-  background-color: var(--primary-color);;
+  background-color: var(--primary-color);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -78,6 +81,74 @@ header nav ul li a {
 
 .hero-image img {
   max-width: 100%;
+}
+
+/* About ME Section */
+.about-me {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-title {
+  border-right: 2px solid var(--primary-color);
+}
+
+.about-text {
+  flex: 12;
+  margin: 50px;
+}
+
+/* Projects Section */
+.project-section {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-title {
+  border-right: 2px solid var(--primary-color);
+}
+
+.project-displays {
+  border: 1px solid var(--primary-color);
+}
+.project-displays img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Contact ME Section */
+.contact-section {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-title {
+  border-right: 2px solid var(--primary-color);
+}
+
+.contact-info ul li {
+  display: inline;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
