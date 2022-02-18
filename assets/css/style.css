@@ -137,27 +137,35 @@ section {
 }
 
 /* About Me Section */
-.about-me p {
+.about-section p {
   line-height: 1.7;
-  color: var(--tertiary-color);
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
 }
 
 /* Projects Section */
-.project-displays {
-  border: 1px solid var(--primary-color);
-}
-.project-displays img {
-  width: 250px;
-  height: 200px;
-  object-fit: cover;
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.desc {
-  padding: 15px;
-  text-align: center;
+.trainer {
+  margin: 20px;
+  color: var(--primary-color);
+  flex: 1;
+}
+.project-section article {
+  margin: 5px;
+  border: 1px solid var(--primary-color);
+  justify-content: space-evenly;
+}
+
+.project-section img {
+  width: 100%;
 }
 
 /* Contact ME Section */
