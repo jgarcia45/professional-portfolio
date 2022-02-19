@@ -22,7 +22,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Screenshot
-Here is a preview of the website provide: ![Professional Portfolio](./assets/images/)
+Here is a preview of the website provide: ![Professional Portfolio](./assets/images/portfolio_website.png)
 
 ## Link
 
