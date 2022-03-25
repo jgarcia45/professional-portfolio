@@ -1,7 +1,11 @@
 # Professional Portfolio
+[![MSU](https://img.shields.io/badge/MSU-Coding%20Bootcamp-green/)](https://bootcamp.msu.edu/)
+
+## Technologies
+![Technologies](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white)
+![Technologies](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white)
 
 ## Description
-
 Our challenge is to create a professional portfolio to showcase our skills and talents to employers. We will be applying the core skills we recently learned: flexbox, media queries, and css variables. We will continue to add more core skills as we progress throughout the course.
 
 ## Acceptance Criteria
@@ -25,7 +29,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Here is a preview of the website provide: ![Professional Portfolio](./assets/images/portfolio_website.png)
 
 ## Link
+A link to the [Code](https://github.com/jgarcia45/professional-portfolio):
+```
+https://github.com/jgarcia45/professional-portfolio
+```
 
-A link to the code is provided below: [Code](https://github.com/jgarcia45/professional-portfolio)
-<br>
-A link to the deployed live URL: [URL](https://jgarcia45.github.io/professional-portfolio/)
+A link to the deployed [URL](https://jgarcia45.github.io/professional-portfolio/):
+```
+https://jgarcia45.github.io/professional-portfolio/
+```
