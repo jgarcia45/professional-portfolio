@@ -2,132 +2,149 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Juan Garcia — System Analyst II and software engineer. C#, ASP.NET, Blazor, and SQL. Portfolio of selected projects." />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Juan Garcia</title>
+    <title>Juan Garcia | System Analyst &amp; Software Engineer</title>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <header>
-        <h1>
-            <a href="index.html">Juan Garcia</a>
-        </h1>
-        <nav>
+    <header class="site-header">
+        <a class="logo" href="index.html">Juan Garcia</a>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- hero/jumbotron -->
-    <section class="hero">
-        <div class="hero-image">
-            <img src="./assets/images/profile_photo.jpg" alt="a photo of the developer" />
-            <h2>Full Stack Web Developer</h2>
-        </div>
-    </section>
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-inner">
+                <img class="hero-photo" src="./assets/images/profile_photo.jpg" alt="Portrait of Juan Garcia" />
+                <div class="hero-text">
+                    <h1>Juan Garcia</h1>
+                    <p class="hero-role">System Analyst II &amp; Software Engineer</p>
+                    <p class="hero-tagline">I build practical, data-driven applications — currently at Kern County
+                        Department of Human Services, working in C#, ASP.NET, Blazor, and SQL.</p>
+                    <div class="hero-links">
+                        <a class="button" href="#projects">View projects</a>
+                        <a class="button button-outline" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- About ME -->
-    <section id="About" class="about-section">
-        <div class="flex-row">
-            <h3 class="section-title primary-border">About Me</h3>
-        </div>
-        <div class="flex-row">
-            <p>Full Stack Web Developer who recently earned a certificate in full stack web development from Michigan
-                State
-                University Coding Bootcamp and Bachelors in Computer Engineering with a Minor in Computer Science from
-                California State University, Bakersfield. Honed and applied skills in JavaScript, CSS, React.js, and SQL
-                to
-                create user-friendly applications. Highly adept at problem solving, coding, and analyzing software with
-                others to create a successful product. Excited to develop scalable solutions and user-friendly products
-                for
-                the end user.</p>
-        </div>
-    </section>
+        <!-- About -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <p>I'm a software engineer at Kern County Department of Human Services, where I've grown from
+                Programmer I to System Analyst II since January 2023. My day-to-day work is building and
+                supporting internal applications — turning real operational needs into reliable tools with
+                C#, ASP.NET, Blazor, and T-SQL, shipped through Azure DevOps.</p>
+            <p>Before that, I earned my B.S. in Computer Engineering from California State University,
+                Bakersfield (2017) and a full-stack web development certificate from the Michigan State
+                University Coding Bootcamp (2022), where I picked up JavaScript, React, and Node.js. I like
+                work that's useful first and polished second: clear interfaces, honest data, and software
+                people can actually rely on.</p>
+        </section>
 
-    <!-- Projects -->
-    <section id="Projects" class="project-section">
-        <div class="flex-row">
-            <h3 class="section-title primary-border">Projects</h3>
-        </div>
-
-        <div class="project-container">
-            <!-- Project -->
-            <div class="project first-project">
-                <a href="https://github.com/E-Lexis/Doggy-Daycare">
-                    <img src="./assets/images/doggy-daycare.png" alt="" />
-                    <h3>Doggy Daycare</h3>
-                </a>
-            </div>
-            <!-- Project -->
-            <div class="project first-project">
-                <a href="https://sccr0123.github.io/Formula-1-Frenzy/">
-                    <img src="./assets/images/FormulaOneFrenzy.png" alt="" />
-                    <h3>Formula One Frenzy</h3>
-                </a>
-            </div>
-            <!--Project-->
-            <div class="project first-project">
-                <a href="https://github.com/jgarcia45/run-buddy">
-                    <img src="./assets/images/run_buddy.png" alt="" />
-                    <h3>Run Buddy</h3>
-                </a>
-            </div>
-            <!--Project-->
-            <div class="project">
-                <a href="https://github.com/jgarcia45/code-refactor-challenge">
-                    <img src="./assets/images/Horiseon.png" alt="" />
-                    <h3>Horiseon</h3>
-                </a>
-            </div>
-            <!--Project-->
-            <div class="project">
-                <a href="https://github.com/jgarcia45/prep-project-4.1.5">
-                    <img src="./assets/images/prep_project.png" alt="" />
-                    <h3>MLH Prep Project</h3>
-                </a>
-            </div>
-            <!--Project-->
-            <div class="project">
-                <a href="https://github.com/jgarcia45/pod-4.1.5-portfolio">
-                    <img src="./assets/images/pod_portfolio.png" alt="" />
-                    <h3>MLH POD Portfolio</h3>
-                </a>
-            </div>
-            <!--Project-->
-            <div class="project">
-                <a href="https://github.com/jgarcia45/Emilio-Huerta">
-                    <img src="./assets/images/emilio_huerta.png" alt="" />
-                    <h3>Emilio Huerta</h3>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact ME -->
-    <section id="Contact" class="contact-section">
-        <div class="flex-row">
-            <h3 class="section-title primary-border">Contact Me</h3>
-        </div>
-        <div class="flex-row">
-            <ul>
-                <li>jgarcia1545@gmail.com</li>
-                <li><a href="https://www.linkedin.com/in/jgarcia45/">LinkedIn</a></li>
-                <li><a href="https://github.com/jgarcia45">Github</a></li>
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skill-list" aria-label="Technical skills">
+                <li>C#</li>
+                <li>ASP.NET</li>
+                <li>Blazor</li>
+                <li>SQL / T-SQL</li>
+                <li>Azure DevOps</li>
+                <li>Telerik</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Selected Projects</h2>
+            <p class="section-intro">A few public projects, mostly from my bootcamp days — the work I do now
+                is internal county software, so this is what's shareable.</p>
+            <div class="project-grid">
+                <article class="project-card">
+                    <a href="https://github.com/E-Lexis/Doggy-Daycare">
+                        <img src="./assets/images/doggy-daycare.png" alt="Screenshot of the Doggy Daycare application" />
+                        <h3>Doggy Daycare</h3>
+                        <p>Full-stack app for managing a dog daycare — group project.</p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://sccr0123.github.io/Formula-1-Frenzy/">
+                        <img src="./assets/images/FormulaOneFrenzy.png" alt="Screenshot of the Formula One Frenzy application" />
+                        <h3>Formula One Frenzy</h3>
+                        <p>Formula 1 info app built with a team — schedules, standings, and stats.</p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://github.com/jgarcia45/run-buddy">
+                        <img src="./assets/images/run_buddy.png" alt="Screenshot of the Run Buddy landing page" />
+                        <h3>Run Buddy</h3>
+                        <p>Fitness landing page — HTML and CSS, responsive layout.</p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://github.com/jgarcia45/code-refactor-challenge">
+                        <img src="./assets/images/Horiseon.png" alt="Screenshot of the Horiseon marketing site" />
+                        <h3>Horiseon</h3>
+                        <p>Code refactor focused on semantics and accessibility.</p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://github.com/jgarcia45/prep-project-4.1.5">
+                        <img src="./assets/images/prep_project.png" alt="Screenshot of the MLH Prep Project" />
+                        <h3>MLH Prep Project</h3>
+                        <p>MLH Fellowship prep project — collaborative open-source work.</p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://github.com/jgarcia45/pod-4.1.5-portfolio">
+                        <img src="./assets/images/pod_portfolio.png" alt="Screenshot of the MLH POD Portfolio" />
+                        <h3>MLH POD Portfolio</h3>
+                        <p>Portfolio site built with my MLH Fellowship pod.</p>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="https://github.com/jgarcia45/Emilio-Huerta">
+                        <img src="./assets/images/emilio_huerta.png" alt="Screenshot of the Emilio Huerta site" />
+                        <h3>Emilio Huerta</h3>
+                        <p>Portfolio site for a fellow developer.</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-alt">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-intro">The fastest way to reach me is email — or find me on LinkedIn and GitHub.</p>
+            <ul class="contact-list">
+                <li><a href="mailto:jgarcia1545@gmail.com">jgarcia1545@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/jgarcia45/">LinkedIn</a></li>
+                <li><a href="https://github.com/jgarcia45">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
     <footer>
-        <div>
-            2022 Garcia&trade;
-        </div>
+        <p>&copy; 2026 Juan Garcia</p>
     </footer>
 </body>
 
